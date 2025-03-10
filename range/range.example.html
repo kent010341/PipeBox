@@ -1,0 +1,19 @@
+<h3>Basic usage: range(n)</h3>
+<div *ngFor="let i of (5 | range)">
+    {{ i }} <!-- Outputs: 0, 1, 2, 3, 4 -->
+</div>
+
+<h3>Start from a specific number</h3>
+<div *ngFor="let i of (2 | range:6)">
+    {{ i }} <!-- Outputs: 2, 3, 4, 5 -->
+</div>
+
+<h3>Custom step value</h3>
+<div *ngFor="let i of (1 | range:10:2)">
+    {{ i }} <!-- Outputs: 1, 3, 5, 7, 9 -->
+</div>
+
+<h3>Descending order</h3>
+<div *ngFor="let i of (10 | range:1:-3)">
+    {{ i }} <!-- Outputs: 10, 7, 4 -->
+</div>
