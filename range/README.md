@@ -1,4 +1,4 @@
-# 🏷️ `range` Pipe  
+# `range` Pipe  
 
 ## Problem  
 In JavaScript, you can loop `n` times using:  
